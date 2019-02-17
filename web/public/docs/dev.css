@@ -1,0 +1,54 @@
+::-webkit-scrollbar {
+    display: none;
+}
+h1, h2, h3, h4, h5, h6, p, a {            
+    font-family: 'Nanum Myeongjo', serif !important;
+}
+body {
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    color: white;
+    padding: 15%;
+}        
+#logoimg {
+    width: 50%;
+    min-width: 200px;
+    max-width: 400px;
+    opacity: 0;
+    display: block;
+    margin: 0px auto;
+}
+.man {
+    /* display: block; */
+    width: calc(100% - 16px);
+    /* height: 30%; */
+    text-align: center;
+    /* padding: 10%; */
+    padding-top: 50px;
+    /* padding-bottom: 0%; */
+    /* bottom: 0%; */
+}
+.name {
+    font-weight: bold;
+}
+.noM {
+    margin: 0px;
+}
+.show0 {
+    opacity: 0;
+}
+.show1 {
+    opacity: 0;
+}
+.show2 {
+    opacity: 0;
+}
+.show3 {
+    opacity: 0;
+}
+.fbtn {
+    opacity: 0;
+    position: fixed;
+    bottom: -70px;
+}

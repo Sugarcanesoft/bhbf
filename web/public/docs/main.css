@@ -1,0 +1,121 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body, main, h1, h2, h3, h4, h5, h6, a, p, span, input {
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+.navHeader {
+    width: calc(100% - 16px);
+    height: 90px;
+    padding-left: 16px;
+    color: white !important;
+    background: url('../img/logo.jpg');
+    background-size: cover;
+}
+#logoimg {
+    width: 50%;
+    opacity: 0;
+    display: block;
+    margin: 0px auto;
+}
+#searchText {
+    margin-left: 10px;
+    /* margin-top: 8px; */
+    color: #666;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+#searchbox {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    z-index: 5;
+    height: 55px;
+    border-radius: 30px;
+    min-height: 10px;
+}
+#s1 {
+    color: #777777;
+    font-size: 18px;
+    margin-left: 15px;
+    width: 70%;
+    cursor: pointer;
+}
+#addbox {
+    width: 90%;
+    min-width: 55px;
+    max-width: 150px;
+    margin-bottom: 30px;
+    z-index: 5;
+    height: 55px;
+    border-radius: 30px;
+    min-height: 10px;
+    cursor: pointer;
+}
+.a0 {
+    color: #009688;
+    cursor: pointer;
+}
+.a1 {
+    color: #777777;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.fbtn {
+    z-index: 1;
+    position: fixed;
+    right: 25px;
+    bottom: -55px;
+    background-color: #009688 !important;
+    color: white !important;
+}
+.card {
+    /* height: 200px; */
+    width: calc(100% - 64px);
+    border: #ccc 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.c_0 {
+    margin-top: 0px;
+    margin-bottom: 12px;
+    color: #66bb6a;
+}
+.c_0_0 {
+    font-size: 18px;
+    color: #777;
+}
+.c_1 {
+    margin-top: 12px;
+}
+.c_2 {
+    margin-left: 5px;
+}
+
+.fin {
+    -webkit-animation-name: fin;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fin;
+    animation-duration: 0.5s;
+}
+@-webkit-keyframes fin {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+@keyframes fin {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+.mdl-layout__drawer-button {
+    color: #009688 !important;
+}
+.mdl-textfield__input {
+    border-bottom: 0px !important;
+}
+.mdl-layout__header {
+    /* display: block !important; */
+    background-color: rgba(0,0,0,0);
+    color: #009688 !important;
+}

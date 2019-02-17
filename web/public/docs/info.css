@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body, main, h1, h2, h3, h4, h5, h6, a, p, span, input {
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+.navHeader {
+    width: calc(100% - 16px);
+    height: 90px;
+    padding-left: 16px;
+    color: white !important;
+    background: url('../img/logo.jpg');
+    background-size: cover;
+}
+#logoimg {
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+}
+.a0 {
+    color: #009688;
+}
+.mdl-layout__drawer-button {
+    color: #009688 !important;
+}
+.mdl-textfield__input {
+    border-bottom: 0px !important;
+}
+.mdl-layout__header {
+    display: block !important;
+    background-color: rgba(0,0,0,0);
+    color: #009688 !important;
+}
